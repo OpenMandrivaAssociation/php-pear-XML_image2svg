@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	0.1
-Release:	15
+Version:	0.1.1
+Release:	1
 Summary:	Image to SVG conversion
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/XML_image2svg/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Source0:	http://download.pear.php.net/package/XML_image2svg-%{version}.tgz
 Patch0:		%{name}-fix-path.patch
 Requires(post): php-pear
 Requires(preun): php-pear
@@ -122,4 +122,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 0.1-1mdk
 - initial Mandriva package (PLD import)
+
 
