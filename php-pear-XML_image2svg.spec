@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.1.1
-Release:	1
+Release:	2
 Summary:	Image to SVG conversion
 License:	PHP License
 Group:		Development/PHP
