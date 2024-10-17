@@ -8,7 +8,7 @@ Release:	2
 Summary:	Image to SVG conversion
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/XML_image2svg/
+URL:		https://pear.php.net/package/XML_image2svg/
 Source0:	http://download.pear.php.net/package/XML_image2svg-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
